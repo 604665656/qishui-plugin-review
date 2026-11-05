@@ -1,0 +1,15 @@
+{
+  "_说明": "把这个文件放到能被 raw.githubusercontent.com 访问的位置，再把地址填进 plugin.json 的 update.feed。",
+  "id": "review",
+  "channel": "stable",
+  "latest": "1.0.0",
+  "releases": [
+    {
+      "version": "1.0.0",
+      "date": "2026-11-04",
+      "notes": "抓取试听音频，音频指纹比对去重与质量打分，挑出值得推的歌。：首个开源版本。",
+      "url": "",
+      "sha256": ""
+    }
+  ]
+}

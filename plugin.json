@@ -1,0 +1,25 @@
+{
+  "id": "review",
+  "name": "试听打分",
+  "version": "1.0.0",
+  "api_version": 2,
+  "summary": "抓取试听音频，音频指纹比对去重与质量打分，挑出值得推的歌。",
+  "author": "604665656",
+  "license": "MIT",
+  "homepage": "https://github.com/604665656/qishui-plugin-review",
+  "entry": "review.plugin:ReviewPlugin",
+  "tab": {
+    "group": "创作",
+    "title": "试听打分",
+    "order": 60
+  },
+  "needs": [
+    "api",
+    "auth",
+    "store"
+  ],
+  "standalone": "review/__main__.py",
+  "update": {
+    "feed": ""
+  }
+}
